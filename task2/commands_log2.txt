@@ -1,0 +1,34 @@
+cd /workspace/sep_debt/debt/
+mkdir task2
+cd task2
+touch commands_log2.txt
+mkdir example
+cd example/
+touch example{1..879}.txt
+cd /workspace/sep_debt/debt/task2
+mkdir home
+cd home/
+mkdir user1
+mkdir user2
+mkdir user3
+mkdir user4
+mkdir user5
+cd user1/
+mkdir files
+mkdir photos
+mkdir videos
+cd files/
+touch files{1..30}.txt
+cd /workspace/sep_debt/debt/task2/home/user1/photos/
+touch photo{1..179}.txt
+cd /workspace/sep_debt/debt/task2/home/user1/videos/
+touch video{1..29}.txt
+cd /workspace/sep_debt/debt/task2/home/
+cp -r user1/. user2
+cp -r user1/. user3
+cp -r user1/. user4
+cp -r user1/. user5
+cd /workspace/sep_debt/debt/task2/
+nano commands_log2.txt
+git add .
+git commit -m "add folders and files for task 2"
