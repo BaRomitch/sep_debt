@@ -1,0 +1,21 @@
+mkdir task1
+cd task1/
+git init
+touch commands_log.txt
+touch README.md
+nano README.md 
+mkdir users
+cd users/
+touch user{1..207}.txt
+ cd /workspace/september_dept/task1/
+ mkdir groups
+cd groups/
+touch group{1..69}.txt
+cd /workspace/september_dept/task1/
+ mkdir subjects
+cd subjects/
+touch subjects{1..50}.txt
+cd /workspace/september_dept/task1/
+nano commands_log.txt
+git add .
+git commit -m "add folders and files for task 1"
